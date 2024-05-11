@@ -1,0 +1,43 @@
+<!-- activity_main.xml -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://developer.android.com/studio/write/tool-attributes"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f7f7f7"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!-- Button to create a new advert -->
+<Button
+android:id="@+id/create_advert_button"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Create New Advert"
+android:textSize="18sp"
+    android:textColor="#ffffff"
+    android:background="@drawable/rounded_button"
+    android:layout_marginBottom="16dp"
+    android:layout_alignParentTop="true"/>
+
+    <!-- Button to show all lost and found items -->
+<Button
+android:id="@+id/show_items_button"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Show All Lost and Found Items"
+android:textSize="18sp"
+    android:textColor="#ffffff"
+    android:background="@drawable/rounded_button"
+    android:layout_below="@id/create_advert_button"
+    android:layout_marginTop="16dp" />
+
+<View
+android:id="@+id/divider"
+android:layout_width="match_parent"
+android:layout_height="1dp"
+android:background="#cccccc"
+    android:layout_below="@id/create_advert_button"
+    android:layout_above="@id/show_items_button" />
+
+    </RelativeLayout>
