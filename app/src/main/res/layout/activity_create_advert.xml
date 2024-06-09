@@ -80,12 +80,31 @@
             android:layout_below="@id/date_edit_text"
             android:layout_marginTop="16dp"/>
 
+        <!-- Button to get current location -->
+        <Button
+            android:id="@+id/get_current_location_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Get Current Location"
+            android:layout_below="@id/location_edit_text"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Button to search for location -->
+        <Button
+            android:id="@+id/search_for_location_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Search for Location"
+            android:layout_below="@id/get_current_location_button"
+            android:layout_marginTop="16dp"/>
+
         <Button
             android:id="@+id/post_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Post"
-            android:layout_below="@id/location_edit_text"
+            android:layout_below="@id/search_for_location_button"
             android:layout_marginTop="16dp"/>
     </RelativeLayout>
 </ScrollView>
+

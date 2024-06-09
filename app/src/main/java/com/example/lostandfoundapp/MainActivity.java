@@ -32,5 +32,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Button btnShowMap = findViewById(R.id.btnShowMap);
+        btnShowMap.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Open the ShowOnMap activity
+                Intent intent = new Intent(MainActivity.this, ShowOnMap.class);
+                startActivity(intent);
+            }
+        });
     }
 }

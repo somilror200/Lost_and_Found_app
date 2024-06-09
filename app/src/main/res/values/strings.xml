@@ -5,6 +5,7 @@
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
     <string name="next">Next</string>
+    <string name="google_maps_key">AIzaSyDm86HqRW0fT_KY3_rCYYuVti0lD5s8kZs</string>
     <string name="previous">Previous</string>
 
     <string name="lorem_ipsum">
